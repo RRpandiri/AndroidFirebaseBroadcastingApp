@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv_listitem_userprofilepic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/circleshape"
+        android:src="@drawable/ic_menu_camera" />
+
+    <!-- User Name -->
+    <TextView
+        android:id="@+id/tv_listitem_username"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/iv_listitem_userprofilepic"
+        android:padding="10dip"
+        android:text="UserName"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</RelativeLayout>

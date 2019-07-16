@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Editext for Search -->
+        <EditText
+            android:id="@+id/et_newchat_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@drawable/baseline_search_black_24"
+            android:enabled="true"
+            android:hint="Search"
+            android:inputType="textPersonName"
+            android:maxLines="1" />
+
+        <!-- List View of Registered mobile number in respective user's contact -->
+        <ListView
+            android:id="@+id/lv_newchat_regnumbersincontacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_newchat_search"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" />
+
+        <!-- Text to display when there are no registered numbers in respective user's contact -->
+        <TextView
+            android:id="@+id/tv_newchat_nousers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="No one in your contacts use our Reach app!!\nShare it and start chat!!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </RelativeLayout>
+</RelativeLayout>
