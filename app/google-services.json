@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "180371652329",
+    "firebase_url": "https://reachapp-a9310.firebaseio.com",
+    "project_id": "reachapp-a9310",
+    "storage_bucket": "reachapp-a9310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180371652329:android:3a03ebed9dd9db8c",
+        "android_client_info": {
+          "package_name": "com.uhcl.reachapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180371652329-d5kpqbumh9ec99t149b5opkq6mtmd62g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uhcl.reachapp",
+            "certificate_hash": "279792f613c98c5f976b775e74c1905a17baa9e3"
+          }
+        },
+        {
+          "client_id": "180371652329-j5hh53vu79vnu5er6tfjgsckcsqe366p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXnYr5bUxePcMrFhmGGCfmUmQT8Ko0br8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180371652329-j5hh53vu79vnu5er6tfjgsckcsqe366p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
